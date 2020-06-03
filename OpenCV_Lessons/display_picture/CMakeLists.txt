@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( display_picture )
+find_package( OpenCV REQUIRED )
+add_executable( display_picture opencv.cpp )
+target_link_libraries( display_picture ${OpenCV_LIBS} )

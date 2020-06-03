@@ -1,0 +1,3 @@
+/home/enes/Desktop/OpenCV_Lessons/Contour2/build/CMakeFiles/rebuild_cache.dir
+/home/enes/Desktop/OpenCV_Lessons/Contour2/build/CMakeFiles/Contour2.dir
+/home/enes/Desktop/OpenCV_Lessons/Contour2/build/CMakeFiles/edit_cache.dir

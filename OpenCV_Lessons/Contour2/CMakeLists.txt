@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( Contour2 )
+find_package( OpenCV REQUIRED )
+add_executable( Contour2 opencv.cpp )
+target_link_libraries( Contour2 ${OpenCV_LIBS} )
