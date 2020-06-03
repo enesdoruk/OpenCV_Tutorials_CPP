@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/enes/Desktop/OpenCV_Lessons/Smoothing/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_065ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_065ae.dir/build.make CMakeFiles/cmTC_065ae.dir/build
+make[1]: Entering directory '/home/enes/Desktop/OpenCV_Lessons/Smoothing/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_065ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_065ae.dir/CheckSymbolExists.c.o   -c /home/enes/Desktop/OpenCV_Lessons/Smoothing/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_065ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_065ae.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_065ae.dir/CheckSymbolExists.c.o  -o cmTC_065ae 
+CMakeFiles/cmTC_065ae.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_065ae.dir/build.make:97: recipe for target 'cmTC_065ae' failed
+make[1]: *** [cmTC_065ae] Error 1
+make[1]: Leaving directory '/home/enes/Desktop/OpenCV_Lessons/Smoothing/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_065ae/fast' failed
+make: *** [cmTC_065ae/fast] Error 2
+
+File /home/enes/Desktop/OpenCV_Lessons/Smoothing/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/enes/Desktop/OpenCV_Lessons/Smoothing/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca73b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca73b.dir/build.make CMakeFiles/cmTC_ca73b.dir/build
+make[1]: Entering directory '/home/enes/Desktop/OpenCV_Lessons/Smoothing/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca73b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ca73b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ca73b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca73b.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ca73b.dir/CheckFunctionExists.c.o  -o cmTC_ca73b -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ca73b.dir/build.make:97: recipe for target 'cmTC_ca73b' failed
+make[1]: *** [cmTC_ca73b] Error 1
+make[1]: Leaving directory '/home/enes/Desktop/OpenCV_Lessons/Smoothing/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ca73b/fast' failed
+make: *** [cmTC_ca73b/fast] Error 2
+
+
