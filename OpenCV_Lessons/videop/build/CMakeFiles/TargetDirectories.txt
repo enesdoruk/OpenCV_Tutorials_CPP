@@ -1,0 +1,3 @@
+/home/enes/Desktop/OpenCV_Lessons/videop/build/CMakeFiles/rebuild_cache.dir
+/home/enes/Desktop/OpenCV_Lessons/videop/build/CMakeFiles/videop.dir
+/home/enes/Desktop/OpenCV_Lessons/videop/build/CMakeFiles/edit_cache.dir
