@@ -1,0 +1,3 @@
+/home/enes/Desktop/OpenCV_Lessons/matchTemplate/build/CMakeFiles/rebuild_cache.dir
+/home/enes/Desktop/OpenCV_Lessons/matchTemplate/build/CMakeFiles/matchTemplate.dir
+/home/enes/Desktop/OpenCV_Lessons/matchTemplate/build/CMakeFiles/edit_cache.dir

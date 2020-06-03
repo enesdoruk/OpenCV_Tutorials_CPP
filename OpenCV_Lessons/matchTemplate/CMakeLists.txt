@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( matchTemplate )
+find_package( OpenCV REQUIRED )
+add_executable( matchTemplate opencv.cpp )
+target_link_libraries( matchTemplate ${OpenCV_LIBS} )
