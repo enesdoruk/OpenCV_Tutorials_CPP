@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( channels )
+find_package( OpenCV REQUIRED )
+add_executable( channels opencv.cpp )
+target_link_libraries( channels ${OpenCV_LIBS} )
