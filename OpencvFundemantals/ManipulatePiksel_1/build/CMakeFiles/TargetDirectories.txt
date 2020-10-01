@@ -1,0 +1,3 @@
+/home/enes/Desktop/OpencvFundemantals/ManipulatePiksel/build/CMakeFiles/rebuild_cache.dir
+/home/enes/Desktop/OpencvFundemantals/ManipulatePiksel/build/CMakeFiles/ManipulatePiksel.dir
+/home/enes/Desktop/OpencvFundemantals/ManipulatePiksel/build/CMakeFiles/edit_cache.dir
