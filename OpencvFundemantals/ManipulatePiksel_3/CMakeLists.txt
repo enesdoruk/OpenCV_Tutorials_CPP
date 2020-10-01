@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( ManipulatePiksel_3 )
+find_package( OpenCV REQUIRED )
+add_executable( ManipulatePiksel_3 ManipulatePiksel_3.cpp )
+target_link_libraries( ManipulatePiksel_3 ${OpenCV_LIBS} )
