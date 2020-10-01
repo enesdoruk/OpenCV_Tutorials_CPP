@@ -1,0 +1,3 @@
+/home/enes/Desktop/OpencvFundemantals/LoadDisplaySaving/build/CMakeFiles/rebuild_cache.dir
+/home/enes/Desktop/OpencvFundemantals/LoadDisplaySaving/build/CMakeFiles/LoadDisplaySaving.dir
+/home/enes/Desktop/OpencvFundemantals/LoadDisplaySaving/build/CMakeFiles/edit_cache.dir
