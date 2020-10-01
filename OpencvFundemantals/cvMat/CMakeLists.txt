@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( cvMat )
+find_package( OpenCV REQUIRED )
+add_executable( cvMat cvMat.cpp )
+target_link_libraries( cvMat ${OpenCV_LIBS} )
