@@ -1,0 +1,3 @@
+/home/enes/Desktop/ex5/build/CMakeFiles/rebuild_cache.dir
+/home/enes/Desktop/ex5/build/CMakeFiles/ex5.dir
+/home/enes/Desktop/ex5/build/CMakeFiles/edit_cache.dir
