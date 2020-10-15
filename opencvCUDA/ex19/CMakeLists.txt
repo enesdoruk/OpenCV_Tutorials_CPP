@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( ex19)
+find_package( OpenCV REQUIRED )
+add_executable( ex19 ex19.cpp )
+target_link_libraries( ex19 ${OpenCV_LIBS} )
