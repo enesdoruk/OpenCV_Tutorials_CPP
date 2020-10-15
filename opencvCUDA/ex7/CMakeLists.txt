@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( ex7 )
+find_package( OpenCV REQUIRED )
+add_executable( ex7 ex7.cpp )
+target_link_libraries( ex7 ${OpenCV_LIBS} )
