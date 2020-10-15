@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( ex18)
+find_package( OpenCV REQUIRED )
+add_executable( ex18 ex18.cpp )
+target_link_libraries( ex18 ${OpenCV_LIBS} )
