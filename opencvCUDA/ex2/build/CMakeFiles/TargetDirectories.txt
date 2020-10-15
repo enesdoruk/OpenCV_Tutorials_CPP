@@ -1,0 +1,3 @@
+/home/enes/Desktop/ex2/build/CMakeFiles/rebuild_cache.dir
+/home/enes/Desktop/ex2/build/CMakeFiles/ex2.dir
+/home/enes/Desktop/ex2/build/CMakeFiles/edit_cache.dir
